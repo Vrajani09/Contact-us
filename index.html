@@ -67,6 +67,11 @@
       height: 50px;
     }
     
+    .content-container {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px;
+}
     .content {
       background-color: Aliceblue;
       border: 15px black;
@@ -74,7 +79,8 @@
       height: 10px;
       padding: 15px;
       margin: 20px; 
-      text-align: left;
+      display: flex;
+      align-items: center;
     }
     
     
@@ -93,9 +99,15 @@
       <h1>CONTACT US</h1>
     </div>
     
-    <div class="content">
+    <div class="content-containter">
+      <div class="content">
+        Name: 
+      </div>
+      <div class="content">
+           Email:
+           </div>
       <p>
-        Email:
+    
       </p>
     </div>
   </body>
