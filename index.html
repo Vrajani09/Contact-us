@@ -69,9 +69,14 @@
     
     .content-container {
       display: flex;
-      justify-content: space-between;
+      align-items: column;
       margin: 20px;
 }
+    .form-container {
+      display: flex;
+      flex-direction: column;
+      margin: 20px;
+    }
     .content {
       background-color: Aliceblue;
       width: 300px;
@@ -126,10 +131,10 @@
     
     .big-box {
       background-color: Aliceblue;
-      width: 20%;
+      width: 300px;
       height: 200px;
       padding: 10px;
-      margin-left: 600px; 
+    
       display: flex;
       align-items: center;
       
@@ -150,17 +155,19 @@
       <h1>GET IN TOUCH</h1>
     </div>
     
+   
+   
+    <div class="content-containter">
+      <div class="form-container"> </div>
+      <div class="content">Name:</div>
+      <div class="content">Phone:</div>
+    <div id="boxC" class="box">Email:</div>
+    <div id="boxD" class="box">Message:</div>
+     </div>
     <div class="big-box">
       <h2>
         hi
       </h2>
     </div>
-    <div class="content-containter">
-      <div class="content">Name:</div>
-      <div class="content">Phone:</div>
-    </div>
-    <div id="boxC" class="box">Email:</div>
-    <div id="boxD" class="box">Message:</div>
-    
   </body>
 </html>
